@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <section class="form-de-login"></section>
+            <div align="center">
+            <h1> <p class="text-center" style="color:#4a03f0"><strong>BIENVENIDO A AEROPUERTOS</strong></p></h1>
+            </div> 
+            <section class="form-de-login"></section>
+
+            <style>
+                .boton{
+                background: #69c5e9;
+                border: none;
+                color:#332d2d;
+                padding:11px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 0px 0px;
+                cursor: pointer;
+            }
+            </style>
+
+<div align="center">
+    <h3><p class="text-center" style="color:#0a0613"><strong>LINK DE BUSCAR A AEROPUERTOS</strong></p></h3> 
+            <button><a href="mapas.html" class="boton">mapas</a></button>
+            </div>
+    <head>
+        <title>Viaje de contacto</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <form action="">
+            <h2>Contacto de Informacion de viaje</h2>
+            <h3><strong>Nombre</strong></h3>
+            <input type="text" name="nombre" placeholder="Nombre">
+
+            <h3><strong>Apellidos</strong></h3>
+            <input type="text" name="Apellidos" placeholder="Apellidos">
+
+            <h3><strong>Correo electronico</strong></h3>
+            <input type="text" name="correo" placeholder="Correo">
+
+            <h3><strong>Numero de telefono</strong></h3>
+            <input type="text" name="telefono" placeholder="Teléfono">
+
+            <h3><strong>cuando de viajer</strong></h3>
+            <input type="date" id="fecha">
+
+            <h3><strong>viajer de pais</strong></h3>
+            <div class="required-field-block form-group">
+            <select id="selectbasic" name="Viajer de pais" class="form-control">
+                <option>Mundo de pais</option>
+                <option value="pais 1">china</option>
+                <option value="pais 2">Tokio</option>
+                <option value="pais 3">corea de sur</option>
+                <option value="pais 4">frances</option>
+                <option value="pais 5">españa</option>
+                <option value="pais 6">colombia</option>
+                <option value="pais 7">brasil</option>
+                <option value="pais 8">ecuador</option>
+                <option value="pais 9">argentina</option>
+                <option value="pais 10">uruguay</option>
+                <option value="pais 11">chile</option>
+                <option value="pais 12">Estados unidos de america</option>
+                <option value="pais 13">canada</option>
+                <option value="pais 14">alemania</option>
+                <option value="pais 15">mexico</option>
+                <option value="pais 16">rusia</option>
+                <option value="pais 17">suiza</option>
+                <option value="pais 18">nueva zelanda</option>
+                <option value="pais 19">dinamarca</option>
+                <option value="pais 20">suecia</option>
+            </select>
+            </div>
+
+            <h3><strong>Hora de viajer</strong></h3>
+            <input type="time" id="hora"><br>
+
+            <h3><strong>Cuando de semana</strong></h3>
+            <input type="week"><br>
+
+            <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
+            
+            <input type="button" value="Enviar" id="boton">
+            
+        </form>
+    </body>
+</html>
